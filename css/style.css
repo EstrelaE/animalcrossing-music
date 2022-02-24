@@ -20,12 +20,40 @@ h1 {
   text-align: center;
 }
 
-.screen {
+img.nintendoGame {
+  height: 315px;
+  width: 400px;
+  display: none;
+}
+
+img.nintendo {
+  margin-left: 546px;
+  margin-top: 8px;
+  position: relative;
+  height: 314px;
+}
+
+.screenBorder {
+  position: absolute;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-  border: 3px solid black;
-  width: 500px;
-  height: 270px;
-  background-repeat: round;
+  border: 8px solid black;
+
+  border-radius: 10px;
+  width: 457px;
+  height: 331px;
+}
+.screen {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  margin-left: 42px;
+  border-radius: 10px;
+  width: 400px;
+  height: 315px;
 }
 
 ul {
