@@ -44,7 +44,7 @@ img.nintendo {
 }
 
 .frame {
-margin-right: 100px;
+  margin-right: 100px;
   display: inline-block;
 }
 
@@ -59,6 +59,7 @@ margin-right: 100px;
   width: 457px;
   height: 331px;
 }
+
 .screen {
   position: absolute;
   left: 0;
@@ -74,7 +75,8 @@ margin-right: 100px;
 ul {
   list-style: none;
   margin: 0 auto;
-  display: inline-block;
+ margin-left: 550px;
+ margin-top: 10px;
   width: 500px;
 }
 
