@@ -10,14 +10,24 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 body {
-  background-image: url("https://wallpaperaccess.com/full/1236351.jpg");
-  background-repeat: round;
+  background-image: url("../img/background.jpg");
+
   height: 700px;
+  font-family: cursive;
 }
 
 h1 {
+  font-family: "Indie Flower", cursive;
   text-align: center;
+  margin-bottom: 5px;
+}
+
+.acLogo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 img.nintendoGame {
@@ -31,6 +41,11 @@ img.nintendo {
   margin-top: 8px;
   position: relative;
   height: 314px;
+}
+
+.frame {
+margin-right: 100px;
+  display: inline-block;
 }
 
 .screenBorder {
@@ -57,22 +72,23 @@ img.nintendo {
 }
 
 ul {
-  width: 350px;
   list-style: none;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
+  width: 500px;
 }
 
 li {
   font-weight: 900;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 20px;
+  padding: 10px;
   border: 2px solid black;
   margin: 10px;
   border-radius: 20px;
-  width: 250px;
+  width: 150px;
   text-align: center;
   cursor: pointer;
+  display: inline-block;
 }
 
 /******************************************
